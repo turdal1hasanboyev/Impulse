@@ -24,10 +24,6 @@ from django.views.static import serve
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('api-auth/', include('rest_framework.urls')),
-
-    path('ckeditor/', include('ckeditor_uploader.urls')),
-
     path('api/user/', include("apps.user.api_urls")),
     path('api/blog/', include("apps.blog.api_urls")),
     path('api/contact/', include("apps.contact.api_urls")),
