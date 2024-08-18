@@ -1,7 +1,7 @@
 from django.urls import path
 
-from apps.contact.api.ContactLC.views import ContactLCView
-from apps.contact.api.ContactRUD.views import ContactRUDView
+from .api.ContactLC.views import ContactLCView
+from .api.ContactRUD.views import ContactRUDView
 
 
 app_name = "contact"

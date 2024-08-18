@@ -1,7 +1,7 @@
 from rest_framework.generics import RetrieveAPIView
 
 from apps.blog.models import Blog
-from apps.blog.api.blog.BlogDetail.serializer import BlogDetailSerializer
+from .serializer import BlogDetailSerializer
 
 
 class BlogDetailView(RetrieveAPIView):

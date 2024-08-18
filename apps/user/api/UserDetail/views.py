@@ -2,7 +2,7 @@ from rest_framework.generics import RetrieveAPIView
 
 from apps.user.models import User
 
-from apps.user.api.UserDetail.serializer import UserDetailSerializer
+from .serializer import UserDetailSerializer
 
 
 class UserDetaliView(RetrieveAPIView):

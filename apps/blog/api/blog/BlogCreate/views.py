@@ -1,7 +1,7 @@
 from rest_framework.generics import CreateAPIView
 
 from apps.blog.models import Blog
-from apps.blog.api.blog.BlogCreate.serializer import BlogCreateSerializer
+from .serializer import BlogCreateSerializer
 
 
 class BlogCreateView(CreateAPIView):

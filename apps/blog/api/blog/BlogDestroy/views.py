@@ -1,7 +1,7 @@
 from rest_framework.generics import DestroyAPIView
 
 from apps.blog.models import Blog
-from apps.blog.api.blog.BlogDestroy.serializer import BlogDestroySerializer
+from .serializer import BlogDestroySerializer
 
 
 class BlogDestroyView(DestroyAPIView):

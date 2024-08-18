@@ -1,7 +1,7 @@
 from rest_framework.generics import UpdateAPIView
 
 from apps.user.models import User
-from apps.user.api.UserUpdate.serializer import UserUpdateSerializer
+from .serializer import UserUpdateSerializer
 
 
 class UserUpdateView(UpdateAPIView):

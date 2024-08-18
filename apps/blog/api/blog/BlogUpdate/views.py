@@ -1,7 +1,7 @@
 from rest_framework.generics import UpdateAPIView
 
 from apps.blog.models import Blog
-from apps.blog.api.blog.BlogUpdate.serializer import BlogUpdateSerializer
+from .serializer import BlogUpdateSerializer
 
 
 class BlogUpdateView(UpdateAPIView):

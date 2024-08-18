@@ -1,7 +1,7 @@
 from rest_framework.generics import ListCreateAPIView
 
 from apps.contact.models import Contact
-from apps.contact.api.ContactLC.serializer import ContactLCSerializer
+from .serializer import ContactLCSerializer
 
 
 class ContactLCView(ListCreateAPIView):

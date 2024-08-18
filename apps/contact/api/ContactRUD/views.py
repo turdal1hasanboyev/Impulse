@@ -1,7 +1,7 @@
 from rest_framework.generics import RetrieveUpdateDestroyAPIView
 
 from apps.contact.models import Contact
-from apps.contact.api.ContactRUD.serializer import ContactRUDSerializer
+from .serializer import ContactRUDSerializer
 
 
 class ContactRUDView(RetrieveUpdateDestroyAPIView):

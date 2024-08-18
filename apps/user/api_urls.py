@@ -1,10 +1,10 @@
 from django.urls import path
 
-from apps.user.api.UserDetail.views import UserDetaliView
-from apps.user.api.UsersList.views import UsersListView
-from apps.user.api.UserUpdate.views import UserUpdateView
-from apps.user.api.UserDelete.views import UserDeleteView
-from apps.user.api.UserCreate.views import UserCreateView
+from .api.UserDetail.views import UserDetaliView
+from .api.UsersList.views import UsersListView
+from .api.UserUpdate.views import UserUpdateView
+from .api.UserDelete.views import UserDeleteView
+from .api.UserCreate.views import UserCreateView
 
 
 app_name = "user"

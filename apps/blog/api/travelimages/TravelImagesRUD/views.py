@@ -1,7 +1,7 @@
 from rest_framework.generics import RetrieveUpdateDestroyAPIView
 
 from apps.blog.models import travelImages
-from apps.blog.api.travelimages.TravelImagesRUD.serializer import TravelImagesRUDSerializer
+from .serializer import TravelImagesRUDSerializer
 
 class TravelImagesRUDView(RetrieveUpdateDestroyAPIView):
     queryset = travelImages.objects.all()

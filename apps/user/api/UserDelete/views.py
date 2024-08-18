@@ -1,7 +1,7 @@
 from rest_framework.generics import DestroyAPIView
 
 from apps.user.models import User
-from apps.user.api.UserDelete.serializer import UserDeleteSerializer
+from .serializer import UserDeleteSerializer
 
 
 class UserDeleteView(DestroyAPIView):

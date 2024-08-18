@@ -1,13 +1,13 @@
 from django.urls import path
 
-from apps.blog.api.travelimages.TravelImagesLC.views import TravelImagesLCView
-from apps.blog.api.travelimages.TravelImagesRUD.views import TravelImagesRUDView
+from .api.travelimages.TravelImagesLC.views import TravelImagesLCView
+from .api.travelimages.TravelImagesRUD.views import TravelImagesRUDView
 
-from apps.blog.api.blog.BlogCreate.views import BlogCreateView
-from apps.blog.api.blog.BlogList.views import BlogListView
-from apps.blog.api.blog.BlogDetail.views import BlogDetailView
-from apps.blog.api.blog.BlogDestroy.views import BlogDestroyView
-from apps.blog.api.blog.BlogUpdate.views import BlogUpdateView
+from .api.blog.BlogCreate.views import BlogCreateView
+from .api.blog.BlogList.views import BlogListView
+from .api.blog.BlogDetail.views import BlogDetailView
+from .api.blog.BlogDestroy.views import BlogDestroyView
+from .api.blog.BlogUpdate.views import BlogUpdateView
 
 
 app_name = "blog"
